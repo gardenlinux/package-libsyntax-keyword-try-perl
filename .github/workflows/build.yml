@@ -9,4 +9,5 @@ jobs:
     with:
       release: ${{ github.ref == 'refs/heads/main' }}
       build_dep: |
-        gardenlinux/package-perl 5.42.2-3gl0+bp1877 
+        gardenlinux/package-perl 5.42.2-3gl0+bp1877
+        gardenlinux/package-libxs-parse-keyword-perl 0.48-2gl0+bp1877
